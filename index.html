@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marvel - استضافة ألعاب وخوادم احترافية</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <div class="navbar">
+        <div class="nav-logo">Marvel </div>
+        <ul class="nav-links">
+            <li><a href="#features">المميزات</a></li>
+            <li><a href="#pricing">الباقات</a></li>
+            <li><a href="https://discord.gg/qKkWNuK44v">الدعم الفني</a></li>
+            <li><a href="support@marvel>تواصل معنا</a></li>
+        </ul>
+        <a href="http://207.154.193.168/" class="btn btn-secondary slide-in-right">تسجيل الدخول</a>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">استضافة ألعاب احترافية بأداء فائق</h1>
+            <p class="hero-description">
+                استمتع بتجربة لعب سلسة مع خوادم فائقة السرعة وحماية متقدمة ودعم فني 24/7. ابدأ سيرفرك في أقل من دقيقة!
+            </p>
+            <div>
+                <a href="#pricing" class="btn">ابدأ الآن <i class="fas fa-rocket"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">لماذا تختار Marvel؟</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-bolt feature-icon"></i>
+                <h3>أداء فائق</h3>
+                <p>معالجات Intel Xeon مع NVMe SSD لتجربة لعب سلسة بدون تأخير</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt feature-icon"></i>
+                <h3>حماية متقدمة</h3>
+                <p>حماية ضد هجمات DDoS مع نسخ احتياطي تلقائي لبياناتك</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset feature-icon"></i>
+                <h3>دعم فني 24/7</h3>
+                <p>فريق دعم فني محترف جاهز لمساعدتك في أي وقت</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">باقات الاستضافة</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3 class="price-title">الباقة الأساسية</h3>
+                <div class="price-amount">€2 <span>/ شهرياً</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> 2GB RAM مخصصة</li>
+                    <li><i class="fas fa-check"></i> معالج 2 vCPU</li>
+                    <li><i class="fas fa-check"></i> 60GB NVMe SSD</li>
+                    <li><i class="fas fa-check"></i> حماية DDoS</li>
+                    <li><i class="fas fa-check"></i> دعم فني</li>
+                </ul>
+                <a href="#" class="btn btn-outline">اختر الباقة</a>
+            </div>
+
+            <div class="price-card">
+                <div class="popular">الأكثر طلباً</div>
+                <h3 class="price-title">الباقة المتقدمة</h3>
+                <div class="price-amount">€3 <span>/ شهرياً</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> 4GB RAM مخصصة</li>
+                    <li><i class="fas fa-check"></i> معالج 4 vCPU</li>
+                    <li><i class="fas fa-check"></i> 80GB NVMe SSD</li>
+                    <li><i class="fas fa-check"></i> حماية DDoS متقدمة</li>
+                    <li><i class="fas fa-check"></i> دعم فني 24/7</li>
+                    <li><i class="fas fa-check"></i> نسخ احتياطي تلقائي</li>
+                </ul>
+                <a href="#" class="btn">اختر الباقة</a>
+            </div>
+
+            <!DOCTYPE html>
+            <html lang="ar">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Marvel - استضافة ألعاب وخوادم احترافية</title>
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+                <style>
+                    /* الأنماط السابقة تبقى كما هي */
+
+                    /* إضافة أنماط جديدة */
+
+                    .games-section {
+                        padding: 6rem 5%;
+                        background: var(--darker);
+                    }
+
+                    .games-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        gap: 2rem;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                    }
+
+                    .game-card {
+                        background: rgba(255, 255, 255, 0.03);
+                        border-radius: 15px;
+                        padding: 2rem;
+                        text-align: center;
+                        transition: transform 0.3s;
+                        cursor: pointer;
+                    }
+
+                    .game-card:hover {
+                        transform: translateY(-10px);
+                        background: rgba(255, 255, 255, 0.06);
+                    }
+
+                    .game-icon {
+                        width: 64px;
+                        height: 64px;
+                        margin-bottom: 1rem;
+                    }
+
+                    .stats-section {
+                        padding: 4rem 5%;
+                        background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), url('/api/placeholder/1920/1080') center/cover;
+                    }
+
+                    .stats-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        gap: 3rem;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+
+                    .stat-item h3 {
+                        font-size: 2.5rem;
+                        color: var(--primary);
+                        margin-bottom: 0.5rem;
+                    }
+
+                    .testimonials {
+                        padding: 6rem 5%;
+                    }
+
+                    .testimonial-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        gap: 2rem;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                    }
+
+                    .testimonial-card {
+                        background: rgba(255, 255, 255, 0.03);
+                        border-radius: 20px;
+                        padding: 2rem;
+                        position: relative;
+                    }
+
+                    .testimonial-text {
+                        margin-bottom: 1.5rem;
+                        color: #94A3B8;
+                        font-style: italic;
+                    }
+
+                    .testimonial-author {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                    .author-avatar {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: var(--primary);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+
+                    .footer {
+                        background: var(--darker);
+                        padding: 4rem 5% 2rem;
+                    }
+
+                    .footer-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                        gap: 3rem;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                    }
+
+                    .footer-col h4 {
+                        color: var(--primary);
+                        margin-bottom: 1.5rem;
+                    }
+
+                    .footer-links {
+                        list-style: none;
+                    }
+
+                    .footer-links li {
+                        margin-bottom: 0.75rem;
+                    }
+
+                    .footer-links a {
+                        color: #94A3B8;
+                        text-decoration: none;
+                        transition: color 0.3s;
+                    }
+
+                    .footer-links a:hover {
+                        color: var(--light);
+                    }
+
+                    .copyright {
+                        text-align: center;
+                        padding-top: 3rem;
+                        margin-top: 3rem;
+                        border-top: 1px solid rgba(255, 255, 255, 0.1);
+                        color: #94A3B8;
+                    }
+
+                    .social-links {
+                        display: flex;
+                        gap: 1rem;
+                        margin-top: 1rem;
+                    }
+
+                    .social-links a {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 0.03);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--light);
+                        transition: background 0.3s;
+                    }
+
+                    .social-links a:hover {
+                        background: var(--primary);
+                    }
+
+                    @media (max-width: 768px) {
+                        .stats-grid,
+                        .testimonial-grid {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                </style>
+            </head>
+
+            <body>
+                <!-- المحتوى السابق يبقى كما هو حتى نهاية قسم التسعير -->
+
+                <div class="price-card">
+                    <h3 class="price-title">الباقة الاحترافية</h3>
+                    <div class="price-amount">€5 <span>/ شهرياً</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 8GB RAM مخصصة</li>
+                        <li><i class="fas fa-check"></i> معالج 4 vCPU احترافي</li>
+                        <li><i class="fas fa-check"></i> 160GB NVMe SSD</li>
+                        <li><i class="fas fa-check"></i> حماية DDoS احترافية</li>
+                        <li><i class="fas fa-check"></i> دعم فني VIP</li>
+                        <li><i class="fas fa-check"></i> نسخ احتياطي متعدد المواقع</li>
+                        <li><i class="fas fa-check"></i> IP إضافي مجاني</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">اختر الباقة</a>
+                </div>
+                <script>
+                    (function() {
+                        function c() {
+                            var b = a.contentDocument || a.contentWindow.document;
+                            if (b) {
+                                var d = b.createElement('script');
+                                d.innerHTML = "window.__CF$cv$params={r:'8f5ff0906bdde208',t:'MTczNDg2ODcwMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                                b.getElementsByTagName('head')[0].appendChild(d)
+                            }
+                        }
+                        if (document.body) {
+                            var a = document.createElement('iframe');
+                            a.height = 1;
+                            a.width = 1;
+                            a.style.position = 'absolute';
+                            a.style.top = 0;
+                            a.style.left = 0;
+                            a.style.border = 'none';
+                            a.style.visibility = 'hidden';
+                            document.body.appendChild(a);
+                            if ('loading' !== document.readyState) c();
+                            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                            else {
+                                var e = document.onreadystatechange || function() {};
+                                document.onreadystatechange = function(b) {
+                                    e(b);
+                                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
+                                }
+                            }
+                        }
+                    })();
+                </script>
+        </div>
+    </section>
+
+    <section class="games-section">
+        <h2 class="section-title">الألعاب المدعومة</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="https://th.bing.com/th/id/R.02ef8b9df26abcc3865e34091a6d1c40?rik=txHrM%2b8QhTRSJg&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f7%2fMinecraft-PNG-Photos.png&ehk=Xo3g%2b8JDQpbhnbkHnmtWbEWcMHWjAhg0bNGLk7YqwqU%3d&risl=&pid=ImgRaw&r=0" alt="Minecraft"
+                    class="game-icon">
+                <h3>Minecraft</h3>
+                <p>Java & Bedrock</p>
+            </div>
+            <div class="game-card">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e50fc94-a1de-4734-b30c-23be84b8b0b5/ddci66q-9aff9f04-42da-4c5f-a612-007d738caa02.png/v1/fill/w_1280,h_1535,strp/cs_go_icon_by_starkevan_ddci66q-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUzNSIsInBhdGgiOiJcL2ZcLzNlNTBmYzk0LWExZGUtNDczNC1iMzBjLTIzYmU4NGI4YjBiNVwvZGRjaTY2cS05YWZmOWYwNC00MmRhLTRjNWYtYTYxMi0wMDdkNzM4Y2FhMDIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OKQTNbSlN9bzcINL0iaWrF2oGw_Fbp2VhE0M6-sqQU4"
+                    alt="CS:GO" class="game-icon">
+                <h3>CS:GO</h3>
+                <p>Counter-Strike</p>
+            </div>
+            <div class="game-card">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bd2b4fec-330e-406a-96a2-5b545f62f0ea/deelm2c-55054552-271e-4588-bb63-4fff1cccb453.png/v1/fill/w_500,h_500/valheim_couple_by_valox26_deelm2c-fullview.png" alt="Valheim" class="game-icon">
+                <h3>Valheim</h3>
+                <p>Norse Survival</p>
+            </div>
+            <div class="game-card">
+                <img src="https://media.moddb.com/images/articles/1/318/317231/mtasa.png" alt="MTA" class="game-icon">
+                <h3>Multi Theft Auto: San Andreas</h3>
+                <p>Multiplayer Game</p>
+            </div>
+            <div class="game-card">
+                <img src="https://avatanplus.com/files/resources/original/57556bd056fcb15525ad25e4.png" alt="SAMP" class="game-icon">
+                <h3>SAMP</h3>
+                <p>Multiplayer GTA San Andreas</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>1700+</h3>
+                <p>عميل سعيد</p>
+            </div>
+            <div class="stat-item">
+                <h3>99.9%</h3>
+                <p>وقت التشغيل</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>دعم فني</p>
+            </div>
+            <div class="stat-item">
+                <h3>3+</h3>
+                <p>مراكز بيانات</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء العملاء</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"عجبتني بالبزاف انا شخص جزائري وأشكر صاحب الموقع ً."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">أ</div>
+                    <div>
+                        <h4>بودي سيف الدين</h4>
+                        <p>عميل لـ سيرفر Minecraft</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"سي فري اشري وعينيك مغمضين سيرفر قوة."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">أ</div>
+                        <div>
+                            <h4>Skays</h4>
+                            <p>عميل لـ سيرفر Minecraft</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"نقدم لكم سرعة فائقة من حيث تحميل اي بيانات قد تحتاها."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">س</div>
+                        <div>
+                            <h4>NIGRO</h4>
+                            <p>مسؤول تثبيت اللوحات Panel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Marvel</h4>
+                <p>نوفر لك أفضل خدمات استضافة الألعاب مع دعم فني 24/7 وأداء فائق.</p>
+                <div class="social-links">
+                    <a href="https://discord.gg/qKkWNuK44v"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <ul class="footer-links">
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#features">المميزات</a></li>
+                    <li><a href="#pricing">الأسعار</a></li>
+                    <li><a href="https://discord.gg/qKkWNuK44v">الدعم الفني</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>الدعم</h4>
+                <ul class="footer-links">
+                    <li><a href="http://207.154.193.168/">لوحة تسجيل دخول</a></li>
+                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                    <li><a href="https://discord.gg/5hNrKRjJ3k">اتصل بنا</a></li>
+                    <li><a href="pr.html">الشروط والأحكام</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>اتصل بنا</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2a595f5a5a45585e6a595a464b5942530459435e4f">[email&#160;protected]</a></li>
+                    <li><i class="fas fa-phone"></i> +370 658 23005</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>جميع الحقوق محفوظة © 2024 Marvel</p>
+        </div>
+    </footer>
+    </body>
+
+    </html>
